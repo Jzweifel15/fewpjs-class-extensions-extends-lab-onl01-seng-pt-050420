@@ -47,4 +47,16 @@ class Square extends Polygon
   {
     return this._sides[0] ** 2;
   }
+  
+    get isValid()
+  {
+    if (this.perimeter % 4 === 0)
+    {
+      return true;
+    }
+    else 
+    {
+      return false;
+    }
+  }
 }
