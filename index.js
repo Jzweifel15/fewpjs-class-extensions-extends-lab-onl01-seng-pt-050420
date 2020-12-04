@@ -40,3 +40,11 @@ class Triangle extends Polygon
     }
   }
 }
+
+class Square extends Polygon
+{
+  get area()
+  {
+    return this._sides[0] ** 2;
+  }
+}
