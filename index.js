@@ -23,7 +23,7 @@ class Triangle extends Polygon
   {
     if (this.countSides === 3)
     {
-      if (sides[0] + sides[1] > sides[2] && sides[1] + sides[2] > sides[0] && sides[0] + sides[2] > sides[1])
+      if (this.sides[0] + this._sides[1] > this._sides[2] && this._sides[1] + this._sides[2] > this._sides[0] && this._sides[0] + this._sides[2] > this._sides[1])
       {
         return true;
       }
