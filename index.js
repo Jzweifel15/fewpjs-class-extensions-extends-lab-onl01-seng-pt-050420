@@ -16,3 +16,4 @@ class Polygon
     return this._sides.reduce(reducer);
   }
 }
+
