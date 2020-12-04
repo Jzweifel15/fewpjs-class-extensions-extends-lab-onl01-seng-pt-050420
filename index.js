@@ -7,7 +7,7 @@ class Polygon
 
   get countSides()
   {
-    return this._sides.length();
+    return this._sides.length;
   }
 
   get perimeter()
